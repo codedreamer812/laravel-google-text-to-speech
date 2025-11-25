@@ -8,7 +8,7 @@ Laravel package for integrating **Gemini Text-to-Speech API** and **Google Cloud
 ## Installation
 You can install the package via composer:
   ```bash
-  composer require moe-mizrak/laravel-google-text-to-speech
+  composer require codedreamer812/laravel-google-text-to-speech
   ```
 
 You can publish the config file with:
@@ -143,10 +143,3 @@ $response = GoogleTextToSpeech::listVoices(languageCode: 'en-US');
 
 > [!WARNING]
 > `listVoices` method only works with **Google Cloud Text-to-Speech API**. It is not supported for **Gemini Text-to-Speech API**.
-
-## Contributing
-
-> **Your contributions are welcome!** If you'd like to improve this project, simply create a pull request with your changes. Your efforts help enhance its functionality and documentation.
-
-> If you find this project useful, please consider ⭐ it to show your support!
-
