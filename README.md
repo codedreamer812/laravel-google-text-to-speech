@@ -150,8 +150,3 @@ $response = GoogleTextToSpeech::listVoices(languageCode: 'en-US');
 
 > If you find this project useful, please consider ⭐ it to show your support!
 
-## Authors
-This project is created and maintained by [Moe Mizrak](https://github.com/moe-mizrak).
-
-## License
-Laravel Package Template is an open-sourced software licensed under the **[MIT license](LICENSE)**.
